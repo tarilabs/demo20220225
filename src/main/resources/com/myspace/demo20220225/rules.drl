@@ -1,7 +1,5 @@
 package com.myspace.demo20220225;
 
-import com.myspace.demo20220225.Person;
-
 rule "Can Buy"
 when
   $p : Person( age >= 18, canBuy == null )
