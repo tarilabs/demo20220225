@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<batch-execution>
+    <insert out-identifier="johnDoe" return-object="true" entry-point="DEFAULT" disconnected="false">
+        <object xsi:type="person" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <age>47</age>
+            <name>John Doe</name>
+        </object>
+    </insert>
+    <insert out-identifier="aMinor" return-object="true" entry-point="DEFAULT" disconnected="false">
+        <object xsi:type="person" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <age>14</age>
+            <name>A. Minor</name>
+        </object>
+    </insert>
+    <fire-all-rules max="-1"/>
+</batch-execution>

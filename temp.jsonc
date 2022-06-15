@@ -1,0 +1,34 @@
+{
+    "type" : "SUCCESS",
+    "msg" : "Container demo20220225_1.0.0-SNAPSHOT successfully called.",
+    "result" : {
+      "execution-results" : {
+        "results" : [ {
+          "value" : {"com.myspace.demo20220225.Person":{
+    "name" : "A. Minor",
+    "age" : 14,
+    "canBuy" : false
+  }},
+          "key" : "aMinor"
+        }, {
+          "value" : {"com.myspace.demo20220225.Person":{
+    "name" : "John Doe",
+    "age" : 47,
+    "canBuy" : true
+  }},
+          "key" : "johnDoe"
+        } ],
+        "facts" : [ {
+          "value" : {"org.drools.core.common.DefaultFactHandle":{
+    "external-form" : "0:12:447002874:447002874:24:DEFAULT:NON_TRAIT:com.myspace.demo20220225.Person"
+  }},
+          "key" : "aMinor"
+        }, {
+          "value" : {"org.drools.core.common.DefaultFactHandle":{
+    "external-form" : "0:11:168055351:168055351:23:DEFAULT:NON_TRAIT:com.myspace.demo20220225.Person"
+  }},
+          "key" : "johnDoe"
+        } ]
+      }
+    }
+}

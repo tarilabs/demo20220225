@@ -45,4 +45,9 @@ public class Person implements java.io.Serializable {
 		this.canBuy = canBuy;
 	}
 
+	@Override
+	public String toString() {
+		return "Person [age=" + age + ", canBuy=" + canBuy + ", name=" + name + "]";
+	}
+
 }
